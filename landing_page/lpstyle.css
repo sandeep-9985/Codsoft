@@ -1,0 +1,155 @@
+/* Reset some default browser styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Top Bar Styles */
+.top-bar {
+    background-color: lightgrey;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-bar nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.top-bar nav ul li {
+    display: block;
+    margin-right: 40px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.top-bar nav ul li a{
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+}
+
+.top-bar nav ul li:hover{
+    color:blue;
+    transform: scale(1.1);  
+    
+    
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 250px;
+}
+
+.search-bar input {
+    padding: 5px;
+    background-color: inherit;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+/* .search-bar input {
+    
+} */
+
+.search-bar button {
+    background-color: #0078d4;
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+}
+
+/* First Division Styles */
+.first-division {
+    background-image: url("/home/super_saiyan/Downloads/bg.jepg");
+    height: 250px;
+    width:device-width;
+    position: inherit;
+    background-size: cover;
+    color: white;
+    text-align:inherit;
+    padding: 100px;
+}
+
+/* Second Division Styles */
+.second-division {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.launch-business, .online-support, .time-management {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+}
+.image{
+
+    border-radius: 25px;
+}
+
+/* Third Division Styles */
+.third-division {
+  
+    background-color:white;
+    color:black;
+     height: 400px;
+    width:device-width;
+    position: inherit;
+    background-size: cover;
+    background-color:white;
+    display: flex;
+    text-align:left;
+    /* justify-content: space-around; */
+    padding: 50px;
+}
+
+.left-align-text{
+    font-family: sans-serif;
+    font-display: inherit;
+    font-style: oblique;
+    flex: 1;
+    /* padding: 20px; */
+    max-width: 50%;
+    margin-left: 0px;
+    /* position: relative;
+        left: 0; */
+   }
+    
+    .text-container {
+        /* padding: 40px; Adjust the padding as needed */
+        background-color: semi-transparent white; /* Add a semi-transparent white background */
+        /* margin-left: 0px;
+        p */
+        
+    }
+    
+
+
+/* Fourth Division Styles */
+.fourth-division {
+    background-color: azure ;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.service-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10 px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
